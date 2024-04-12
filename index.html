@@ -8,22 +8,96 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <nav id="navbar">
+      <header>Transaction Services Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#">Introduction</a></li>
+        <li><a class="nav-link" href="#">Financial due diligence</a></li>
+        <li><a class="nav-link" href="#">Vendor due diligence</a></li>
+        <li><a class="nav-link" href="#">Valuation Techniques</a></li>
+        <li><a class="nav-link" href="#">Technical Areas</a></li>
+        <li><a class="nav-link" href="#">P&L focus</a></li>
+        <li><a class="nav-link" href="#">Balance sheet focus</a></li>
+        <li><a class="nav-link" href="#">Glossary</a></li>
+      </ul>
+    </nav>
     <main id="main-doc">
-      <nav id="navbar">
-        <header>Transaction Services Documentation</header>
-        <ul>
-          <li><a href="#">Introduction</a></li>
-          <li><a href="#">Valuation Techniques</a></li>
-          <li><a href="#">Technical Areas</a></li>
-          <li><a href="#">P&L focus</a></li>
-          <li><a href="#">Balance sheet focus</a></li>
-        </ul>
-      </nav>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Transaction Services is a subset of corporate finance and focuses on the due diligence of Target businesses.</p>
+        <p>There are two main types of due diligence:</p>
+        <ol>
+          <li>Financial due diligence (buy-side); and</li>
+          <li>Vendor due diligence (sell-side).</li>
+        </ol>
+        <p>This documentation aims to discuss the differences between the main types of due diligence, the valuation techniques and how they differ depending on the acquirer and nature of the Target business, and the main technical areas.</p>
+      </section>
+      <section class="main-section" id="Financial_due_diligence">
+        <header>Financial Due Diligence</header>
+        <p>This is the main type of work completed and relates to buy-side deals. A buy-side deal is one where the TS advisers are acting for the buyer who are aiming to purchase the Target. Clients are typically PE houses who are looking to add to their portfolio.</p>
+        <p>TS work for FDD typically commences towards the tail-end of the acquisition life cycle and will be one of the final professional services type work (alongside LDD, TDD, ITDD and CDD).</p>
+        <p>The value add proposition when it comes to FDD relates to the adjustments made to the valuation (discussed later in the valuation techniques section) which will provide the PE house with a third party opinion when they come to negotiate a final purchase price with the Target.</p>
+      </section>
+      <section class="main-section" id="Vendor_due_diligence">
+        <header>Vendor due diligence</header>
+        <p>This work is more niche, as such it is less frequent than FDD, and relates to sell-side deals. A sell-side deal is one where the TS advisers act directly for a Target who is in the process of selling their business. Clients vary across several sectors and sizes.</p>
+        <p>TS work for VDD commences earlier on in the selling process, in comparison to FDD, with the TS team working directly alongside the Target's M&A advisers to achieve the most optimum outcome for the client - whilst working objectively</p>
+        <p>The value add proposition for VDD comes from involving TS advisers early on who have sufficient time to assess the viability of the Target and its financials. Moreover, it allows the M&A team to understand how negotiations with regards to the valuation will go with potential acquirers. It may also speed up the process as some acquirers will not see the need to undertake a full due diligence exercise given one has already been completed.</p>
+      </section>
+      <section class="main-section" id="Valuation_Techniques">
+        <header>Valuation Techniques</header>
+        <p>The valuation technique differs depending on the type of business being acquired and the purpose of acquisition however, these are the typical techniques used:</p>
+        <div class="valuation 1">
+          <h4>EV/EBITDA</h4>
+            <p>This valuation technique is the most commonly used and is popular amongst PE houses. It's popularity derives from the fact that it uses EBITDA as a proxy which reduces the risk of any clever accounting tricks being used to manipulate the profit figure. A downside however, is that the multiple will be based on a proxy of a "comparable" company - which will never be entirely accurate.</p>
+            <article>
+              The formula for this valuation is in several parts:
+              <code>
+                <ol>
+                  <li>Calculate EBITDA by making the required adjustments to net profit;</li>
+                  <li>Analyse comparable companies that have recently been sold and ascertain a EV multiple; and</li>
+                  <li>Multiply the adjusted EBITDA figure by the proxy multiple to arrive at the EV figure (pre adjustments).</li>
+                </ol>
+              </code>
+            </article>
+        </div>
+        <div class="valuation 2">
+          <h4>Revenue Multiplier</h4>
+          <p>This valuation technique is not frequently used however, may be a more sensible solution where the Target is making losses (negative EBITDA) or where its business model significantly relies on recurring revenues</p>
+          <article>
+            The steps to calculate this method are as follows:
+            <code>
+              <ol>
+                <li>Ascertain a recurring revenue run-rate figure;</li>
+                <li>Analyse comparable companies that have recently been sold and ascertain a revenue multiplier figure; and</li>
+                <li>Multiply the run-rate recurring reveunue figure by the multiple.</li>
+              </ol>
+            </code>
+          </article>
+        </div>
+      </section>
+      <section class="main-section" id="Technical_Areas">
+        <header>Technical Areas</header>
+        <p>The technical areas for TS advisers mainly relate to the work which impacts the negotiations on the final purchase price.</p>
+      </section>
       <section class="main-section"></section>
       <section class="main-section"></section>
-      <section class="main-section"></section>
-      <section class="main-section"></section>
-      <section class="main-section"></section>
+      <section class="main-section" id="Glossary">
+        <header>Glossary</header>
+        <p>Here is a glossary of the terminology and abbreviations used throughout the documentation:</p>
+        <div class="glossary-table">
+          <div class="table1">
+            <p>TS <span class="definition">Transaction services</span></p>
+            <p>FDD <span class="definition">Financial due diligence</span></p>
+            <p>VDD <span class="definition">Vendor due diligence</span></p>
+            <p>PE <span class="definition">Private Equity</span></p>
+            <p>Target <span class="definition">Potential business to be acquired</span></p>
+          </div>
+          <div class="table2">
+
+          </div>
+        </div>
+      </section>
     </main>
 
   </body>
