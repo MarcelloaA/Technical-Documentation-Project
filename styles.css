@@ -86,6 +86,8 @@ code {
     margin-bottom: 20px;
     position: relative;
     text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .glossary-table {
@@ -118,3 +120,17 @@ thead > tr > th {
 }
 
 
+@media (min-width: 320px) and (max-width: 768px) {
+    #navbar {
+        height: 100%;
+        width: 25%;
+        position: fixed;
+    }
+
+    #main-doc {
+        position: absolute;
+        margin-left: 27%;
+
+    }
+} 
+    
